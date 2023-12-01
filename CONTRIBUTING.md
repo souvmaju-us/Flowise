@@ -122,7 +122,7 @@ Flowise support different environment variables to configure your instance. You 
 
 
 | Variable                    | Description                                                                  | Type                                             | Default                             |
-| --------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------- | --- |
+| --------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------- |
 | PORT                        | The HTTP port Flowise runs on                                                | Number                                           | 3000                                |
 | FLOWISE_USERNAME            | Username to login                                                            | String                                           |                                     |
 | FLOWISE_PASSWORD            | Password to login                                                            | String                                           |                                     |
@@ -131,7 +131,7 @@ Flowise support different environment variables to configure your instance. You 
 | LOG_LEVEL                   | Different levels of logs                                                     | Enum String: `error`, `info`, `verbose`, `debug` | `info`                              |
 | APIKEY_PATH                 | Location where api keys are saved                                            | String                                           | `your-path/Flowise/packages/server` |
 | TOOL_FUNCTION_BUILTIN_DEP   | NodeJS built-in modules to be used for Tool Function                         | String                                           |                                     |
-| TOOL_FUNCTION_EXTERNAL_DEP  | External modules to be used for Tool Function                                | String                                           |                                     |     |
+| TOOL_FUNCTION_EXTERNAL_DEP  | External modules to be used for Tool Function                                | String                                           |                                     |
 | DATABASE_TYPE               | Type of database to store the flowise data                                   | Enum String: `sqlite`, `mysql`, `postgres`       | `sqlite`                            |
 | DATABASE_PATH               | Location where database is saved (When DATABASE_TYPE is sqlite)              | String                                           | `your-home-dir/.flowise`            |
 | DATABASE_HOST               | Host URL or IP address (When DATABASE_TYPE is not sqlite)                    | String                                           |                                     |
